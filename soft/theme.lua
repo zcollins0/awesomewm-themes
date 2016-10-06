@@ -3,6 +3,7 @@
 ---------------------------
 local awful = require("awful")
 local config = awful.util.getdir("config")
+local naughty = require("naughty")
 
 -- Expected location for this awesome theme
 -- Change this to wherever the theme is installed
@@ -114,5 +115,6 @@ theme.layout_centerwork = theme.lain_icons .. "centerworkw.png"
 theme.layout_uselesstile = soft_theme .. "/layouts/tilew.png"
 theme.layout_uselessfair = soft_theme .. "/layouts/fairvw.png"
 
+naughty.config.defaults.bg = "#111111"
 return theme
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
