@@ -22,7 +22,7 @@ theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#aaaaaa"
 theme.fg_focus      = "#ff8b38"
-theme.fg_urgent     = "#353535"
+theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#aaaaaa"
 
 theme.border_width  = 1
