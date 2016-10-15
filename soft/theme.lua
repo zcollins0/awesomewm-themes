@@ -108,7 +108,7 @@ theme.awesome_icon = nil
 theme.icon_theme = nil
 
 -- lain layout stuff
-theme.useless_gap_width = 10
+theme.useless_gap_width = 8
 theme.lain_icons = "/usr/share/awesome/lib/lain/icons/layout/default/"
 theme.layout_centerfair = theme.lain_icons .. "termfairw.png"
 theme.layout_centerwork = theme.lain_icons .. "centerworkw.png"
