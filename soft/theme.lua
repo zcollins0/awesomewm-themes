@@ -41,7 +41,7 @@ theme.border_marked = "#91231c"
 -- Example:
 --theme.taglist_bg_focus = "#ff0000"
 
--- Display the taglist squares
+-- Display the taglist squares (not using any for this theme)
 -- theme.taglist_squares_sel   = soft_theme .. "/taglist/squarefw.png"
 -- theme.taglist_squares_unsel = soft_theme .. "/taglist/squarew.png"
 theme.taglist_squares_sel = nil
@@ -53,11 +53,6 @@ theme.taglist_squares_unsel = nil
 theme.menu_submenu_icon = soft_theme .. "/submenu.png"
 theme.menu_height = 15
 theme.menu_width  = 100
-
--- You can add as many variables as
--- you wish and access them by using
--- beautiful.variable in your rc.lua
--- theme.bg_widget = "#cc0000"
 
 -- Define the image to load
 theme.titlebar_close_button_normal = soft_theme .. "/titlebar/close_normal.png"
