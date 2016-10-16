@@ -86,7 +86,7 @@ theme.layout_tiletop = soft_theme .. "/layouts/tiletopw.png"
 theme.layout_spiral  = soft_theme .. "/layouts/spiralw.png"
 theme.layout_dwindle = soft_theme .. "/layouts/dwindlew.png"
 
--- the icon is here if you want it
+-- the awesome icon is here if you want it
 -- theme.awesome_icon = soft_theme .. "/awesome_icon.png"
 theme.awesome_icon = nil
 
@@ -102,6 +102,7 @@ theme.layout_centerwork = theme.lain_icons .. "centerworkw.png"
 theme.layout_uselesstile = soft_theme .. "/layouts/tilew.png"
 theme.layout_uselessfair = soft_theme .. "/layouts/fairvw.png"
 
+-- This is the default popup widget background color
 naughty.config.defaults.bg = "#111111"
 return theme
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
