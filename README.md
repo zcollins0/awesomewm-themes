@@ -11,3 +11,4 @@ A dark pastel colored theme for awesome window manager. My personal favorite.
 ### usage:
 - download repository to awesome themes location (default ~/.config/awesome/themes)
 - change quiet_theme variable in theme.lua to location of download
+- change theme in rc.lua
