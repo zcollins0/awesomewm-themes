@@ -30,18 +30,8 @@ theme.border_normal = "#444444"
 theme.border_focus  = "#467073"
 theme.border_marked = "#91231c"
 
--- There are other variable sets
--- overriding the default one when
--- defined, the sets are:
--- taglist_[bg|fg]_[focus|urgent|occupied|empty]
--- tasklist_[bg|fg]_[focus|urgent]
--- titlebar_[bg|fg]_[normal|focus]
--- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
--- mouse_finder_[color|timeout|animate_timeout|radius|factor]
--- Example:
---theme.taglist_bg_focus = "#ff0000"
-
--- Display the taglist squares (not using any for this theme)
+-- Display the taglist squares (not using any for this theme, but the commented
+-- lines are the locations of the taglist squares)
 -- theme.taglist_squares_sel   = soft_theme .. "/taglist/squarefw.png"
 -- theme.taglist_squares_unsel = soft_theme .. "/taglist/squarew.png"
 theme.taglist_squares_sel = nil
@@ -54,7 +44,8 @@ theme.menu_submenu_icon = soft_theme .. "/submenu.png"
 theme.menu_height = 15
 theme.menu_width  = 100
 
--- Define the image to load
+-- Define the images to load
+-- Note: if you use my rc.lua none of these will be used
 theme.titlebar_close_button_normal = soft_theme .. "/titlebar/close_normal.png"
 theme.titlebar_close_button_focus  = soft_theme .. "/titlebar/close_focus.png"
 
@@ -78,6 +69,7 @@ theme.titlebar_maximized_button_focus_inactive  = soft_theme .. "/titlebar/maxim
 theme.titlebar_maximized_button_normal_active = soft_theme .. "/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = soft_theme .. "/titlebar/maximized_focus_active.png"
 
+-- background.png is also an option
 theme.wallpaper = soft_theme .. "/backgroundred.png"
 
 -- default layout icons 
