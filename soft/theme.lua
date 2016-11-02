@@ -11,7 +11,7 @@ local soft_theme = config .. "/themes/soft"
 
 theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "monospace 8"
 
 -- A good color to match these is 8f465a, a soft pink pastel color
 theme.bg_normal     = "#343c48"
