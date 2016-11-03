@@ -10,7 +10,7 @@ local quiet_theme = config .. "/themes/quiet"
 
 theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "monospace 8"
 
 -- A good color to match these is 404c7e, a dark indigo-purple color
 theme.bg_normal     = "#1a1a1a"
