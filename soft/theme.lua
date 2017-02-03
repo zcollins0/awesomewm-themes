@@ -104,5 +104,7 @@ theme.layout_uselessfair = soft_theme .. "/layouts/fairvw.png"
 
 -- This is the default popup widget background color
 naughty.config.defaults.bg = "#111111"
+
+theme.useless_gap = 3 
 return theme
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
