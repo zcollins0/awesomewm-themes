@@ -1,4 +1,4 @@
----------------------------
+--------------------------
 --- soft awesome theme ---
 ---------------------------
 local awful = require("awful")
@@ -70,7 +70,7 @@ theme.titlebar_maximized_button_normal_active = soft_theme .. "/titlebar/maximiz
 theme.titlebar_maximized_button_focus_active  = soft_theme .. "/titlebar/maximized_focus_active.png"
 
 -- background.png is also an option
-theme.wallpaper = soft_theme .. "/backgroundred.png"
+theme.wallpaper = soft_theme .. "/background.png"
 
 -- default layout icons 
 theme.layout_fairh = soft_theme .. "/layouts/fairhw.png"
