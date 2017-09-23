@@ -3,6 +3,7 @@ awesome window manager themes
 outrun
 -------------
 An outrun aesthetic theme for awesome window manager.
+Wallpaper by http://axiomdesign.deviantart.com/
 
 quiet
 -------------
