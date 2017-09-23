@@ -14,14 +14,14 @@ theme = {}
 theme.font          = "monospace 8"
 
 -- A good color to match these is 8f465a, a soft pink pastel color
-theme.bg_normal     = "#343c48"
-theme.bg_focus      = "#343c48"
-theme.bg_urgent     = "#467073"
+theme.bg_normal     = "#01020a"
+theme.bg_focus      = "#01020a"
+theme.bg_urgent     = "#07115e"
 theme.bg_minimize   = "#4f4b61"
 theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#ff8b38"
+theme.fg_focus      = "#ff005f"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#aaaaaa"
 
